@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Header: FC = () => {
   return (
-    <header>
+    <header className="sticky top-0 bg-[var(--color-black)] drop-shadow-md">
       <Navbar />
     </header>
   );

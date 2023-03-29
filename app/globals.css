@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --color-black: #2c363f;
+  --color-white: #f2f7f2;
+  --color-red: #de541e;
+  --color-green: #3bb273;
+  --color-grey: #63a088;
+}
+
+.desktop-navlink {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}

@@ -6,7 +6,10 @@ import { NavLink } from "../../interfaces/NavigationLink";
 
 const DesktopLink: FC<NavLink> = ({ url, title }) => {
   return (
-    <Link href={url} className="py-2 px-5 bg-blue-200 rounded">
+    <Link
+      href={url}
+      className="h-full desktop-navlink flex items-center px-10 hover:bg-[var(--color-grey)] transition-all bg-transparent text-[var(--color-white)] hover:text-[var(--color-black)]"
+    >
       {title}
     </Link>
   );
