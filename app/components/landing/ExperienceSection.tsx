@@ -33,9 +33,6 @@ const ExperienceSection: FC = () => {
           </div>
           <div className="bg-[url('/images/codeface.png')] w-full h-full bg-cover bg-center bg-no-repeat min-h-[300px]"></div>
         </div>
-        <div className='bg-blue-200 relative w-[500px] h-full'>
-          <div className='ballChainIdle absolute'></div>
-        </div>
       </div>
     </section>
   );

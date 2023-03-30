@@ -4,6 +4,7 @@ import SecondaryButton from "./components/ui/SecondaryButton";
 
 // sections
 import ExperienceSection from "./components/landing/ExperienceSection";
+import ControlCharacterSection from "./components/landing/ControlCharacterSection";
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
         </div>
       </section>
       <ExperienceSection />
+      <ControlCharacterSection />
     </main>
   );
 }
