@@ -18,7 +18,7 @@
   width: 32px;
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 0;
-  animation: CharacterIdle 1s steps(2) infinite;
+  animation: CharacterIdle .5s steps(2) infinite;
   transform: scale(1.5);
 }
 .charMoveRight {
