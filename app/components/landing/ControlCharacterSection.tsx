@@ -27,8 +27,8 @@ const ControlCharacterSection: FC = () => {
     setCharacterAnimation("charMoveJump");
   };
   return (
-    <section className='w-full flex flex-col px-[10%] h-full min-h-[400px]'>
-      <div className='bg-blue-200 relative w-full h-full min-h-[70px] overflow-hidden flex items-center'>
+    <section className='w-full flex flex-col px-[10%] h-full min-h-[400px] bg-[var(--color-white)]'>
+      <div className=' relative w-full h-full min-h-[70px] overflow-hidden flex items-center'>
         <div
           className='absolute transition-all'
           style={{
