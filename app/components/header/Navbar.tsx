@@ -19,7 +19,7 @@ const Navbar: FC = () => {
         <div className="md:flex  hidden h-full">
           <DesktopLink url="/" title="About" />
           <DesktopLink url="/" title="Projects" />
-          <DesktopLink url="/" title="Education" />
+          <DesktopLink url="/" title="Contact" />
         </div>
         <NavButton />
       </div>

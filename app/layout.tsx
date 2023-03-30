@@ -15,7 +15,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="relative h-full">
+      <body className="relative h-full bg-[var(--color-black)]">
         <Header />
         {children}
       </body>
