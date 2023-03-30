@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 :root {
-  --color-black: #2c363f;
+  --color-black: #071013;
   --color-white: #f2f7f2;
   --color-red: #de541e;
   --color-green: #3bb273;
@@ -12,4 +12,16 @@
 
 .desktop-navlink {
   clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.ballChainIdle {
+  width: 126px;
+  height: 39px;
+  background: url('/images/sprites/BallandChainBot/idle.png') center top;
+  animation: ballChainIdlePlay .5s steps(5) infinite;
+  transform: scale(2)
+}
+
+@keyframes ballChainIdlePlay {
+  100% { background-position: 0 -195px; }
 }
