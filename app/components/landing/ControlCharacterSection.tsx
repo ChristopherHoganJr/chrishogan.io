@@ -7,7 +7,7 @@ const ControlCharacterSection: FC = () => {
     useState<string>("charIdle");
   const [left, setLeft] = useState<boolean>(false);
   const moveLeft = () => {
-    if (characterPosition > 0) {
+    if (characterPosition > 20) {
       setLeft(true);
       setCharacterAnimation("charMoveLeft");
       setCharacterPosition(characterPosition - 5);
@@ -17,7 +17,7 @@ const ControlCharacterSection: FC = () => {
     }
   };
   const moveRight = () => {
-    if (characterPosition < 95) {
+    if (characterPosition < 80) {
       setLeft(false);
       setCharacterAnimation("charMoveRight");
       setCharacterPosition(characterPosition + 5);
