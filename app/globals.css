@@ -46,7 +46,7 @@
   width: 32px;
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 -160px;
-  animation: CharacterJump .5s steps(8) infinite ;
+  animation: CharacterJump .5s steps(8) infinite;
   transform: scale(1.5);
 }
 

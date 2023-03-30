@@ -32,7 +32,12 @@ export default function Home() {
         </div>
       </section>
       <ExperienceSection />
-      <ControlCharacterSection />
+      <div className='grid grid-cols-1 md:grid-cols-2 px-4'>
+        <ControlCharacterSection />
+        <div>
+          <h2>Hello</h2>
+        </div>
+      </div>
     </main>
   );
 }
