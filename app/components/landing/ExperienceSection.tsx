@@ -28,7 +28,7 @@ const ExperienceSection: FC = () => {
             I am confident in my ability to deliver high-quality, scalable
             solutions that meet the needs of clients and users alike.
           </p>
-          <div className="bg-[url('/images/codeface.png')] w-full h-full bg-auto bg-center bg-no-repeat min-h-[500px] "></div>
+          <div className="bg-[url('/images/codeface.png')] w-full h-full bg-cover bg-center  bg-no-repeat "></div>
         </div>
       </div>
     </section>
