@@ -11,7 +11,7 @@ const ExperienceSection: FC = () => {
   return (
     <section className='bg-[var(--color-white)]'>
       <div className='max-w-7xl mx-auto flex flex-col gap-10 py-20 px-8'>
-        <h2 className='font-bold text-5xl text-[var(--color-black)] text-center'>
+        <h2 className='font-bold text-4xl text-[var(--color-black)] text-center'>
           Crafting Digital Experiences
         </h2>
         <div className='grid grid-cols-1 md:grid-cols-[1fr_2fr] gap-10'>

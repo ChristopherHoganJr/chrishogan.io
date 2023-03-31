@@ -5,6 +5,7 @@ import SecondaryButton from "./components/ui/SecondaryButton";
 // sections
 import ExperienceSection from "./components/landing/ExperienceSection";
 import ControlCharacterSection from "./components/landing/ControlCharacterSection";
+import PokedexSection from "./components/landing/PokedexSection";
 
 export default function Home() {
   return (
@@ -32,10 +33,10 @@ export default function Home() {
         </div>
       </section>
       <ExperienceSection />
-      <div className='grid grid-cols-1 md:grid-cols-2 px-4'>
-        <ControlCharacterSection />
-        <div>
-          <h2>Hello</h2>
+      <div className='bg-[var(--color-white)] h-full'>
+        <div className='max-w-7xl gap-10 mx-auto grid grid-cols-1 md:grid-cols-[2fr_1fr] px-4 bg-[var(--color-white)] py-10  md:gap-[20px] divide-black'>
+          <PokedexSection />
+          <ControlCharacterSection />
         </div>
       </div>
     </main>

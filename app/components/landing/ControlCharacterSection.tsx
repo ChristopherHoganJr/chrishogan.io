@@ -39,8 +39,12 @@ const ControlCharacterSection: FC = () => {
     }, 500);
   };
   return (
-    <section className='w-full flex flex-col px-[10%] h-full  bg-[var(--color-white)] justify-center items-center'>
-      <div className=' relative w-full h-full min-h-[70px] overflow-hidden flex items-center'>
+    <section className='w-full flex flex-col px-[10%] h-full  bg-[var(--color-white)] justify-start items-center'>
+      <h2 className='font-bold text-4xl text-[var(--color-black)] text-center'>
+        Element Control
+      </h2>
+
+      <div className=' relative w-full h-[100px] overflow-hidden flex items-center'>
         <div
           className='absolute transition-all'
           style={{
