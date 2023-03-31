@@ -76,7 +76,7 @@ const ControlCharacterSection: FC = () => {
           src='/images/arrow.png'
           onClick={moveJump}
           alt='up arrow'
-          className='scale-75 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)]'
+          className='scale-75 -translate-y-2 transition-all active:translate-y-0 md:drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)]'
         />
         <img
           onClick={moveRight}
