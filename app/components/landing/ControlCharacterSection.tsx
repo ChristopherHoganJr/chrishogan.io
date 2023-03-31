@@ -39,64 +39,63 @@ const ControlCharacterSection: FC = () => {
     }, 500);
   };
   return (
-    <section className='w-full flex flex-col px-[10%] h-full  bg-[var(--color-white)] justify-start items-center'>
-      <h2 className='font-bold text-4xl text-[var(--color-black)] text-center'>
-        Element Control
-      </h2>
+    <section className='w-full bg-[var(--color-white)] p-4'>
+      <div className=' max-w-7xl mx-auto  '>
+        <div className='border-2 rounded-md p-4 '>
+          <h2 className='font-bold text-4xl text-[var(--color-black)] text-center'>
+            Element Control
+          </h2>
 
-      <div className=' relative w-full h-[100px] overflow-hidden flex items-center'>
-        <div
-          className='absolute transition-all'
-          style={{
-            left: `${characterPosition}%`,
-            transformOrigin: "center",
-          }}>
-          <div
-            className={`${
-              characterAnimation == "charMoveLeft"
-                ? "charMoveLeft"
-                : characterAnimation == "charMoveRight"
-                ? "charMoveRight"
-                : characterAnimation == "charMoveDuck"
-                ? "charMoveDuck"
-                : characterAnimation == "charMoveJump"
-                ? "charMoveJump"
-                : "charIdle"
-            } ${left ? "leftCharacter" : ""}  `}></div>
-        </div>
-      </div>
-      <div className='flex flex-wrap justify-center'>
-        <div className=''>
-          <img
-            onClick={moveLeft}
-            src='/images/arrow.png'
-            alt='up arrow'
-            className='scale-75 -rotate-90 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[-10px_0_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[-18px_0_5px_rgba(0,0,0,0.5)]'
-          />
-        </div>
-        <div className=''>
-          <img
-            src='/images/arrow.png'
-            onClick={moveJump}
-            alt='up arrow'
-            className='scale-75 -translate-y-2 transition-all active:translate-y-0 md:drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)]'
-          />
-        </div>
-        <div className=''>
-          <img
-            onClick={moveRight}
-            src='/images/arrow.png'
-            alt='up arrow'
-            className='scale-75 rotate-90 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[10px_0_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[18px_0_5px_rgba(0,0,0,0.5)]'
-          />
-        </div>
-        <div className=''>
-          <img
-            src='/images/arrow.png'
-            onClick={moveDuck}
-            alt='up arrow'
-            className='scale-75 rotate-180 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[0_-10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[0_-18px_5px_rgba(0,0,0,0.5)]'
-          />
+          <div className=' relative w-full h-[200px] overflow-hidden  '>
+            <div
+              className='absolute transition-all top-[40%]'
+              style={{
+                left: `${characterPosition}%`,
+                transformOrigin: "center",
+              }}>
+              <div
+                className={`${
+                  characterAnimation == "charMoveLeft"
+                    ? "charMoveLeft"
+                    : characterAnimation == "charMoveRight"
+                    ? "charMoveRight"
+                    : characterAnimation == "charMoveDuck"
+                    ? "charMoveDuck"
+                    : characterAnimation == "charMoveJump"
+                    ? "charMoveJump"
+                    : "charIdle"
+                } ${left ? "leftCharacter" : ""}  `}></div>
+            </div>
+          </div>
+          <div className=' flex justify-center flex-wrap'>
+            <img
+              onClick={moveLeft}
+              src='/images/arrow.png'
+              alt='up arrow'
+              className='scale-75 -rotate-90 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[-10px_0_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[-18px_0_5px_rgba(0,0,0,0.5)]'
+            />
+
+            <img
+              src='/images/arrow.png'
+              onClick={moveJump}
+              alt='up arrow'
+              className='scale-75 -translate-y-2 transition-all active:translate-y-0 md:drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)]'
+            />
+
+            <img
+              onClick={moveRight}
+              src='/images/arrow.png'
+              alt='up arrow'
+              className='scale-75 rotate-90 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[10px_0_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[18px_0_5px_rgba(0,0,0,0.5)]'
+            />
+
+            <img
+              src='/images/arrow.png'
+              onClick={moveDuck}
+              alt='up arrow'
+              className='scale-75 rotate-180 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[0_-10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] hover:scale-[80%] hover:-translate-y-4 hover:drop-shadow-[0_-18px_5px_rgba(0,0,0,0.5)]'
+            />
+          </div>
         </div>
       </div>
     </section>

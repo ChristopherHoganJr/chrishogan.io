@@ -19,39 +19,39 @@
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 0;
   animation: CharacterIdle .5s steps(2) infinite;
-  transform: scale(1.5);
+  transform: scale(5);
 }
 .charMoveRight {
   width: 32px;
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 -96px;
   animation: CharacterRun .5s steps(8) infinite ;
-  transform: scale(1.5);
+  transform: scale(5);
 }
 .charMoveLeft {
   width: 32px;
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 -96px;
   animation: CharacterRun .5s steps(8) infinite ;
-  transform: scale(1.5);
+  transform: scale(5);
 }
 .charMoveDuck {
   width: 32px;
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 -128px;
   animation: CharacterDuck .5s steps(6) infinite ;
-  transform: scale(1.5);
+  transform: scale(5);
 }
 .charMoveJump {
   width: 32px;
   height: 32px;
   background: url('/images/sprites/AnimationSheet_Character.png') 0 -160px;
   animation: CharacterJump .5s steps(8) infinite;
-  transform: scale(1.5);
+  transform: scale(5);
 }
 
 .leftCharacter {
-  transform: rotateY(180deg) scale(1.5);
+  transform: rotateY(180deg) scale(5);
 }
 
 @keyframes CharacterIdle {
