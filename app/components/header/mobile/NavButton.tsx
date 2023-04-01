@@ -1,8 +1,12 @@
 "use client";
 import React, { type FC, useState } from "react";
 
-const NavButton: FC = () => {
-  const [navOpen, setNavOpen] = useState<boolean>(false);
+type NavBoolean = {
+  setNavOpen: React.Dispatch<React.SetStateAction<boolean>>;
+  navOpen: boolean;
+};
+
+const NavButton: FC<NavBoolean> = ({ setNavOpen, navOpen }) => {
   return (
     <div
       className={`flex transition-all gap-2 flex-col justify-center p-3 overflow-hidden md:hidden`}
