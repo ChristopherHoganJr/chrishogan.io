@@ -66,7 +66,7 @@ const PokedexSection: FC = () => {
                   <img src={pokemon.sprites.front_default} alt="" />
 
                   <h3>
-                    <span className="font-bold text-xl">{pokemonName}</span> -
+                    <span className="font-bold text-xl">{pokemon.name}</span> -
                     [#
                     {pokemon.id}]
                   </h3>
