@@ -66,3 +66,19 @@
 @keyframes CharacterJump {
   100% { background-position: -256px -160px; }
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #3bb273;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #de541e;
+}
