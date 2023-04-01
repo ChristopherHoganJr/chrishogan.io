@@ -1,0 +1,65 @@
+[
+  {
+    "title": "Codeserker",
+    "logo_path": "codeserker-logo.png",
+    "stack_name": "Modified T3 Stack",
+    "stack_items": [
+      "TypeScript",
+      "Next.js",
+      "tRPC",
+      "Prisma",
+      "TailwindCSS",
+      "MongoDB"
+    ],
+    "link_url": "https://codeserker.com/"
+  },
+  {
+    "title": "DesignedBySonja",
+    "logo_path": "designedbysonja.png",
+    "stack_name": "Next.js",
+    "stack_items": ["TypeScript", "Next.js", "TailwindCSS", "Formspree"],
+    "link_url": "https://designedbysonja.com/"
+  },
+  {
+    "title": "Loaded Deck Mushrooms",
+    "stack_name": "T3 Stack",
+    "stack_items": [
+      "TypeScript",
+      "Next.js",
+      "TailwindCSS",
+      "NextAuth",
+      "tRPC",
+      "Prisma",
+      "MongoDB",
+      "Google Cloud Platform"
+    ],
+    "link_url": "https://www.loadeddeckmushrooms.com/"
+  },
+  {
+    "title": "CryptoWolves",
+    "stack_name": "Python & Flask",
+    "stack_items": [
+      "Python 3",
+      "Flask",
+      "Jinja2",
+      "B-crypt",
+      "MySQL",
+      "Javascript",
+      "Chartjs"
+    ],
+    "link_url": "https://github.com/ChristopherHoganJr/cryptowolves"
+  },
+  {
+    "title": "XCLSV",
+    "stack_name": "Java & Spring Boot",
+    "stack_items": [
+      "Java",
+      "Spring Boot",
+      "Jinja2",
+      "B-crypt",
+      "MySQL",
+      "Bootstrap 5"
+    ],
+    "link_url": "https://github.com/ChristopherHoganJr/XCLSV"
+  }
+]
