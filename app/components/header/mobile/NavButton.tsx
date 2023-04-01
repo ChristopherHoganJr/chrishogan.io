@@ -9,7 +9,7 @@ type NavBoolean = {
 const NavButton: FC<NavBoolean> = ({ setNavOpen, navOpen }) => {
   return (
     <div
-      className={`flex transition-all gap-2 flex-col justify-center p-3 overflow-hidden md:hidden`}
+      className={`flex transition-all gap-2 flex-col justify-center p-3 overflow-hidden md:hidden cursor-pointer`}
       onClick={() => setNavOpen(!navOpen)}
     >
       <div
