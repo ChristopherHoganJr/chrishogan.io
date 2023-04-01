@@ -1,8 +1,8 @@
 "use client";
-import React, { type FC, useState, useEffect } from "react";
+import React, { type FC, useState } from "react";
 import axios from "axios";
 
-const PokedexSection = () => {
+const PokedexSection: FC = () => {
   const [pokemonName, setPokemonName] = useState<string>("charizard");
   const [pokemon, setPokemon] = useState<any>();
   const [notFound, setNotFound] = useState<boolean>(false);
@@ -43,7 +43,7 @@ const PokedexSection = () => {
                 />
               </div>
               <button
-                className="my-0 mx-4 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] hover:-translate-y-4 hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)] text-xl border-2 text-[var(--color-grey)] border-[var(--color-grey)] rounded-md py-3 px-6 bg-[var(--color-black)] hover:border-[var(--color-white)] hover:text-[var(--color-white)]"
+                className="my-0 mx-4 -translate-y-2 transition-all md:active:translate-y-0 drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] md:hover:-translate-y-4 md:hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)] text-xl border-2 text-[var(--color-grey)] border-[var(--color-grey)] rounded-md py-3 px-6 bg-[var(--color-black)] md:hover:border-[var(--color-white)] md:hover:text-[var(--color-white)]"
                 disabled={pokemonName.length === 0 ? true : false}
               >
                 Look Up Pokemon
