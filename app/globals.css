@@ -6,6 +6,7 @@
   --color-black: #071013;
   --color-white: #f2f7f2;
   --color-red: #de541e;
+  --color-red-bg: #de541e39;
   --color-green: #3bb273;
   --color-grey: #63a088;
 }
@@ -17,36 +18,36 @@
 .charIdle {
   width: 32px;
   height: 32px;
-  background: url('/images/sprites/AnimationSheet_Character.png') 0 0;
-  animation: CharacterIdle .5s steps(2) infinite;
+  background: url("/images/sprites/AnimationSheet_Character.png") 0 0;
+  animation: CharacterIdle 0.5s steps(2) infinite;
   transform: scale(5);
 }
 .charMoveRight {
   width: 32px;
   height: 32px;
-  background: url('/images/sprites/AnimationSheet_Character.png') 0 -96px;
-  animation: CharacterRun .5s steps(8) infinite ;
+  background: url("/images/sprites/AnimationSheet_Character.png") 0 -96px;
+  animation: CharacterRun 0.5s steps(8) infinite;
   transform: scale(5);
 }
 .charMoveLeft {
   width: 32px;
   height: 32px;
-  background: url('/images/sprites/AnimationSheet_Character.png') 0 -96px;
-  animation: CharacterRun .5s steps(8) infinite ;
+  background: url("/images/sprites/AnimationSheet_Character.png") 0 -96px;
+  animation: CharacterRun 0.5s steps(8) infinite;
   transform: scale(5);
 }
 .charMoveDuck {
   width: 32px;
   height: 32px;
-  background: url('/images/sprites/AnimationSheet_Character.png') 0 -128px;
-  animation: CharacterDuck .5s steps(6) infinite ;
+  background: url("/images/sprites/AnimationSheet_Character.png") 0 -128px;
+  animation: CharacterDuck 0.5s steps(6) infinite;
   transform: scale(5);
 }
 .charMoveJump {
   width: 32px;
   height: 32px;
-  background: url('/images/sprites/AnimationSheet_Character.png') 0 -160px;
-  animation: CharacterJump .5s steps(8) infinite;
+  background: url("/images/sprites/AnimationSheet_Character.png") 0 -160px;
+  animation: CharacterJump 0.5s steps(8) infinite;
   transform: scale(5);
 }
 
@@ -55,14 +56,22 @@
 }
 
 @keyframes CharacterIdle {
-  100% { background-position: -64px 0; }
+  100% {
+    background-position: -64px 0;
+  }
 }
 @keyframes CharacterRun {
-  100% { background-position: -256px -96px; }
+  100% {
+    background-position: -256px -96px;
+  }
 }
 @keyframes CharacterDuck {
-  100% { background-position: -192px -128px; }
+  100% {
+    background-position: -192px -128px;
+  }
 }
 @keyframes CharacterJump {
-  100% { background-position: -256px -160px; }
+  100% {
+    background-position: -256px -160px;
+  }
 }
