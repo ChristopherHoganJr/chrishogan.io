@@ -7,6 +7,7 @@ export const metadata = {
 
 // components
 import Header from "./components/header/Header";
+import Footer from "./components/footer/Footer";
 
 export default function RootLayout({
   children,
@@ -18,6 +19,7 @@ export default function RootLayout({
       <body className='bg-[var(--color-black)]'>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   );
