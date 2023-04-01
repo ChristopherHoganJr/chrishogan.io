@@ -13,7 +13,9 @@ const Header: FC = () => {
       <Navbar setNavOpen={setNavOpen} navOpen={navOpen} />
       <div
         className={`absolute flex flex-col gap-3 z-10 w-full  bg-[var(--color-black)] top-0 left-0 right-0 py-5 md:hidden ${
-          navOpen ? "translate-y-[99px]" : "-translate-y-[100%]"
+          navOpen
+            ? "translate-y-[99px] opacity-1"
+            : "-translate-y-[100%] opacity-0"
         } transition-all`}
       >
         <div className="flex justify-center items-center px-4 ">
