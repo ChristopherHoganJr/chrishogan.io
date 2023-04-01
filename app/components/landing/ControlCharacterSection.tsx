@@ -74,28 +74,28 @@ const ControlCharacterSection: FC = () => {
               onClick={moveLeft}
               src="/images/arrow.png"
               alt="up arrow"
-              className="p-2 m-2 scale-75 -rotate-90 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[-10px_0_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[-18px_0_5px_rgba(0,0,0,0.5)]"
+              className="scale-75 -rotate-90 -translate-y-2 transition-all md:active:translate-y-0 drop-shadow-[-10px_0_5px_rgba(0,0,0,0.5)] md:active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] md:active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[-18px_0_5px_rgba(0,0,0,0.5)]"
             />
 
             <img
               src="/images/arrow.png"
               onClick={moveJump}
               alt="up arrow"
-              className="p-2 m-2 scale-75 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] m;md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)]"
+              className="scale-75 -translate-y-2 transition-all md:active:translate-y-0 drop-shadow-[0_10px_5px_rgba(0,0,0,0.5)] md:active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] md:active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[0_18px_5px_rgba(0,0,0,0.5)]"
             />
 
             <img
               onClick={moveRight}
               src="/images/arrow.png"
               alt="up arrow"
-              className="p-2 m-2 scale-75 rotate-90 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[10px_0_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[18px_0_5px_rgba(0,0,0,0.5)]"
+              className="scale-75 rotate-90 -translate-y-2 transition-all md:active:translate-y-0 drop-shadow-[10px_0_5px_rgba(0,0,0,0.5)] md:active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] md:active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[18px_0_5px_rgba(0,0,0,0.5)]"
             />
 
             <img
               src="/images/arrow.png"
               onClick={moveDuck}
               alt="up arrow"
-              className="p-2 m-2 scale-75 rotate-180 -translate-y-2 transition-all active:translate-y-0 drop-shadow-[0_-10px_5px_rgba(0,0,0,0.5)] active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[0_-18px_5px_rgba(0,0,0,0.5)]"
+              className="scale-75 rotate-180 -translate-y-2 transition-all md:active:translate-y-0 drop-shadow-[0_-10px_5px_rgba(0,0,0,0.5)] md:active:drop-shadow-[0px_0_5px_rgba(0,0,0,0.5)] md:active:scale-[70%] md:hover:scale-[80%] md:hover:-translate-y-4 md:hover:drop-shadow-[0_-18px_5px_rgba(0,0,0,0.5)]"
             />
           </div>
         </div>
