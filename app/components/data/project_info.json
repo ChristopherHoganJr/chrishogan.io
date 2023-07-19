@@ -1,43 +1,30 @@
 [
   {
-    "title": "Codeserker",
-    "logo_path": "codeserker-logo.png",
-    "stack_name": "Modified T3 Stack",
-    "stack_items": [
-      "TypeScript",
-      "Next.js",
-      "tRPC",
-      "Prisma",
-      "TailwindCSS",
-      "MongoDB"
-    ],
-    "link_url": "https://codeserker.com/"
-  },
-  {
     "title": "DesignedBySonja",
     "logo_path": "designedbysonja.png",
     "stack_name": "Next.js",
+    "description": "A portfolio designed to beautifully showcase the talent and proficiency of a graphic designers, providing a platform to captivate and inspire clients and fellow creatives",
     "stack_items": ["TypeScript", "Next.js", "TailwindCSS", "Formspree"],
     "link_url": "https://designedbysonja.com/"
   },
   {
     "title": "Loaded Deck Mushrooms",
-    "stack_name": "T3 Stack",
+    "stack_name": "Vite & React.js",
+    "description": "An independent chef has dedicated his expertise to create a captivating cookbook that will entice both mushroom enthusiasts and beginners alike",
     "stack_items": [
-      "TypeScript",
-      "Next.js",
+      "JavaScript",
+      "Vite",
       "TailwindCSS",
-      "NextAuth",
-      "tRPC",
-      "Prisma",
-      "MongoDB",
-      "Google Cloud Platform"
+      "React.js",
+      "Formspree",
+      "HeroIcons"
     ],
     "link_url": "https://www.loadeddeckmushrooms.com/"
   },
   {
     "title": "CryptoWolves",
     "stack_name": "Python & Flask",
+    "description": "A new cryptocurrency social media platform, where you can learn, share, and invest in the world's most exciting digital currencies alongside like-minded individuals.",
     "stack_items": [
       "Python 3",
       "Flask",
@@ -52,6 +39,7 @@
   {
     "title": "XCLSV",
     "stack_name": "Java & Spring Boot",
+    "description": "Experience the thrill of the ride with the world's first social media platform designed exclusively for Ferrari enthusiasts, where you can connect, share, and engage with fellow fans from around the globe.",
     "stack_items": [
       "Java",
       "Spring Boot",
@@ -61,5 +49,43 @@
       "Bootstrap 5"
     ],
     "link_url": "https://github.com/ChristopherHoganJr/XCLSV"
+  },
+  {
+    "title": "Mega Yacht Dreams",
+    "stack_name": "MERN",
+    "description": "Mega Yacht Dream is a personal full-stack Airbnb clone project that allows users to rent luxurious yachts for the ultimate vacation experience.",
+    "stack_items": [
+      "Vite.js",
+      "React.js",
+      "Express.js",
+      "JSONWebToken",
+      "Mongoose",
+      "B-crypt",
+      "Axios",
+      "date-fns",
+      "TailwindCSS",
+      "HeroIcons",
+      "MongoDB"
+    ],
+    "link_url": "https://github.com/ChristopherHoganJr/mega-yacht-dreams"
+  },
+  {
+    "title": "Phoenix",
+    "stack_name": "MERN",
+    "description": "Phoenix is a full-stack personal Twitter clone project designed to provide users with a similar experience to the popular social media platform.",
+    "stack_items": [
+      "Vite.js",
+      "React.js",
+      "Express.js",
+      "JSONWebToken",
+      "Mongoose",
+      "B-crypt",
+      "Axios",
+      "date-fns",
+      "TailwindCSS",
+      "HeroIcons",
+      "MongoDB"
+    ],
+    "link_url": "https://github.com/ChristopherHoganJr/mega-yacht-dreams"
   }
 ]
